@@ -9,3 +9,8 @@ spring:
       ddl-auto: update
     generate-ddl: true
     show-sql: true
+
+springdoc:
+  swagger-ui:
+    path: swagger-ui.html
+    operationsSorter: method
